@@ -18,11 +18,9 @@ data:
       skipApprovalScreen: true
     enablePasswordDB: true
     staticPasswords:
-    - email: user@kubeflow.org
-      hash: $2y$12$4K/VkmDd1q1Orb3xAt82zu8gk7Ad6ReFR4LCP9UeYE90NLiN9Df72
-      # https://github.com/dexidp/dex/pull/1601/commits
-      # FIXME: Use hashFromEnv instead
-      username: user
+    - email: ludger.paehler@tum.de
+      hash: $2y$12$BJrI8JMXU3D8MmSnpFV4k.Mj.FX.v22dLECyz5CnxlOUocuDzPV/S
+      username: lpaehler
       userID: "15841185641784"
     staticClients:
     # https://github.com/dexidp/dex/pull/1664
